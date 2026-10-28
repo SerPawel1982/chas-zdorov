@@ -37,4 +37,15 @@ h2{font-size:26px;color:var(--navy);margin:40px 0 14px}
 .tg p{margin:0;flex:1 1 260px}
 footer{border-top:1px solid var(--line);margin-top:48px;padding:22px 0 40px;color:var(--muted);font-size:16px}
 .empty{display:none;color:var(--muted)}
+.card.ep img{aspect-ratio:16/9;object-fit:cover;object-position:center}
+.card.ep h3{font-size:19px;line-height:1.35}
+.card .meta{display:inline-block;margin-top:10px;font-size:15px;font-weight:600;color:var(--teal)}
+.episode{display:grid;grid-template-columns:minmax(0,460px) 1fr;gap:24px;align-items:start;margin:32px 0 8px}
+.episode img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:14px;border:1px solid var(--line)}
+.episode .kicker{margin:0 0 6px;font-size:16px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--teal)}
+.episode h1{margin:0 0 12px;font-size:28px}
+.aka{color:var(--muted);font-size:16px;margin:0}
+.material{border-top:2px solid var(--line);margin-top:36px;padding-top:4px}
+.material h2{margin-top:24px}
+@media(max-width:760px){.episode{grid-template-columns:1fr}.episode h1{font-size:24px}}
 @media(max-width:640px){body{font-size:18px}h1{font-size:28px}header .brand{font-size:20px}nav{margin-left:0;width:100%}header .wrap{flex-wrap:wrap}}
